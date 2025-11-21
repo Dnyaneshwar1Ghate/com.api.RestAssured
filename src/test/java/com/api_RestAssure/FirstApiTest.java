@@ -14,7 +14,7 @@ public class FirstApiTest {
 		.assertThat()		
 		.body("title[1]", equalTo("qui est esse")).header("Content-Type", "application/json; charset=utf-8");
 
-		System.out.println("First Test Case Pass for GEt API Automation using RestAssured");
+		System.out.println("First Test Case Pass for GEt API Automation using RestAssured Done");
 	}
 
 }
