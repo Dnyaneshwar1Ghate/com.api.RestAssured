@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.api_RestAssure.FirstApiTest"/>
+      <class name="com.api_RestAssure.PostRequestDemo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

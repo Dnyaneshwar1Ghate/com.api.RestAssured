@@ -16,9 +16,9 @@ public class PostRequestDemo {
     @BeforeTest
     public void postData() {
 
-        map.put("title", "foo");
-        map.put("body", "bar");
-        map.put("userId", "1");
+        map.put("title", RestUtils.getTitle());
+        map.put("body", RestUtils.getBody());
+        map.put("userId",RestUtils.getUserId());
 
      
         RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
