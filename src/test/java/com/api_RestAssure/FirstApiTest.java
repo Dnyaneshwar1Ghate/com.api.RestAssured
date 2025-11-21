@@ -9,12 +9,12 @@ public class FirstApiTest {
 	@Test
 	public void demo_GEt_Request() {
 		
-		given().when().get("https://reqres.in/api/users?page=2").then().statusCode(200).statusLine("HTTP/1.1 200 OK")
+		given().when().get("https://jsonplaceholder.typicode.com/posts").then().statusCode(200).statusLine("HTTP/1.1 200 OK")
 
 		.assertThat()		
-		.body("data[0].email", equalTo("michael.lawson@reqres.in")).header("Server", "cloudflare");
+		.body("title[1]", equalTo("qui est esse")).header("Content-Type", "application/json; charset=utf-8");
 
-		System.out.println("First Test Case Pass for API Automation using RestAssured");
+		System.out.println("First Test Case Pass for GEt API Automation using RestAssured");
 	}
 
 }
