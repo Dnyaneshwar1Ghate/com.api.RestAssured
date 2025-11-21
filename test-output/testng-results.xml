@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-21T17:48:14 IST" name="Suite" finished-at="2025-11-21T17:48:17 IST" duration-ms="2845">
+  <suite started-at="2025-11-21T17:54:35 IST" name="Suite" finished-at="2025-11-21T17:54:38 IST" duration-ms="2537">
     <groups>
     </groups>
-    <test started-at="2025-11-21T17:48:14 IST" name="Test" finished-at="2025-11-21T17:48:17 IST" duration-ms="2845">
-      <class name="com.api_RestAssure.FirstApiTest">
-        <test-method signature="demo_GEt_Request()[pri:0, instance:com.api_RestAssure.FirstApiTest@47eaca72]" started-at="2025-11-21T17:48:14 IST" name="demo_GEt_Request" finished-at="2025-11-21T17:48:16 IST" duration-ms="1756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo_GEt_Request -->
-      </class> <!-- com.api_RestAssure.FirstApiTest -->
+    <test started-at="2025-11-21T17:54:35 IST" name="Test" finished-at="2025-11-21T17:54:38 IST" duration-ms="2537">
       <class name="com.api_RestAssure.PostRequestDemo">
-        <test-method is-config="true" signature="postData()[pri:0, instance:com.api_RestAssure.PostRequestDemo@7586beff]" started-at="2025-11-21T17:48:14 IST" name="postData" finished-at="2025-11-21T17:48:14 IST" duration-ms="341" status="PASS">
+        <test-method is-config="true" signature="postData()[pri:0, instance:com.api_RestAssure.PostRequestDemo@6025e1b6]" started-at="2025-11-21T17:54:35 IST" name="postData" finished-at="2025-11-21T17:54:36 IST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postData -->
-        <test-method signature="postRequest()[pri:0, instance:com.api_RestAssure.PostRequestDemo@7586beff]" started-at="2025-11-21T17:48:16 IST" name="postRequest" finished-at="2025-11-21T17:48:17 IST" duration-ms="711" status="PASS">
+        <test-method signature="postRequest()[pri:0, instance:com.api_RestAssure.PostRequestDemo@6025e1b6]" started-at="2025-11-21T17:54:36 IST" name="postRequest" finished-at="2025-11-21T17:54:38 IST" duration-ms="2158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRequest -->
