@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-21T14:55:36 IST" name="Suite" finished-at="2025-11-21T14:55:36 IST" duration-ms="46">
+    <groups>
+    </groups>
+    <test started-at="2025-11-21T14:55:36 IST" name="Test" finished-at="2025-11-21T14:55:36 IST" duration-ms="46">
+      <class name="com.api_RestAssure.FirstApiTest">
+        <test-method signature="testApi()[pri:0, instance:com.api_RestAssure.FirstApiTest@145f66e3]" started-at="2025-11-21T14:55:36 IST" name="testApi" finished-at="2025-11-21T14:55:36 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApi -->
+      </class> <!-- com.api_RestAssure.FirstApiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

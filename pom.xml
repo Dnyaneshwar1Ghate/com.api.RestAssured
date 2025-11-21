@@ -3,4 +3,34 @@
   <groupId>com.api_RestAssure</groupId>
   <artifactId>com.api_RestAssure</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+ <dependencies>
+ <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.5.6</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.github.java-json-tools/json-schema-validator -->
+<dependency>
+    <groupId>com.github.java-json-tools</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>2.2.14</version>
+</dependency>
+
+
+
+
+ </dependencies> 
+  
 </project>
