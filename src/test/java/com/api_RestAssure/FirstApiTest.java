@@ -9,10 +9,10 @@ public class FirstApiTest {
 	@Test
 	public void demo_GEt_Request() {
 		
-		given().when().get("https://jsonplaceholder.typicode.com/posts").then().statusCode(200).statusLine("HTTP/1.1 200 OK")
+		given().when().get("http://localhost:3000/employees").then().statusCode(200).statusLine("HTTP/1.1 200 OK")
 
 		.assertThat()		
-		.body("title[1]", equalTo("qui est esse")).header("Content-Type", "application/json; charset=utf-8");
+		.body("firstName[4]", equalTo("mahesh")).header("Content-Type", "application/json");
 
 		System.out.println("First Test Case Pass for GEt API Automation using RestAssured Done");
 	}
