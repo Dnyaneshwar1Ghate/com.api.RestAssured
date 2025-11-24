@@ -3,8 +3,8 @@
 <suite name="Suite" parallel="classes" thread-count="2">
   <test name="Test1">
     <classes>
-      <class name="com.api_RestAssure.PostRequestDemo"/>
-        <class name="com.api_RestAssure.FirstApiTest"/>
+      <class name="com.api_RestAssure.SecondApiTest"/>
+      <class name="com.api_RestAssure.FirstApiTest"/>
     </classes>
   </test>
 </suite>
