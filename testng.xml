@@ -6,19 +6,11 @@
 
         <classes>
 
-            <class name="com.api_RestAssure.ApiUsingDataProvider" />
+            <class name="com.api_RestAssure.APIDemowithAnotation" />
 
         </classes>
 
     </test>
 
-    <test name="Test2">
-
-        <classes>
-
-            <class name="com.api_RestAssure.SimpleApi" />
-
-        </classes>
-
-    </test>
+   
 </suite>
