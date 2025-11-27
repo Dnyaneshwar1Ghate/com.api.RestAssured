@@ -43,6 +43,8 @@ public class ApiUsingDataProvider {
         Assert.assertTrue(actualId > 0, "The ID in the response should be greater than 0 but found: " + actualId);
 
         Assert.assertEquals(actualId, postId, "Expected post ID (" + postId + ") does not match actual ID (" + actualId + ")");
+        
+        System.out.println("Test Pass Using DataProvider");
 	
 	}
 	
