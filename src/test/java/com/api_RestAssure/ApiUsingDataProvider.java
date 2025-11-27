@@ -44,7 +44,7 @@ public class ApiUsingDataProvider {
 
         Assert.assertEquals(actualId, postId, "Expected post ID (" + postId + ") does not match actual ID (" + actualId + ")");
         
-        System.out.println("Test Pass Using DataProvider");
+        System.out.println("Test Pass Using DataProvider ");
 	
 	}
 	
