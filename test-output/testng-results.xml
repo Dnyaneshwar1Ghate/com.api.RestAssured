@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-26T10:43:23 IST" name="Default suite" finished-at="2025-11-26T10:43:26 IST" duration-ms="3039">
+  <suite started-at="2025-11-27T13:50:17 IST" name="Default suite" finished-at="2025-11-27T13:50:19 IST" duration-ms="2129">
     <groups>
     </groups>
-    <test started-at="2025-11-26T10:43:23 IST" name="Default test" finished-at="2025-11-26T10:43:26 IST" duration-ms="3039">
-      <class name="com.api_RestAssure.APITest">
-        <test-method signature="testDeleteRequest()[pri:0, instance:com.api_RestAssure.APITest@7c7b252e]" started-at="2025-11-26T10:43:23 IST" name="testDeleteRequest" finished-at="2025-11-26T10:43:24 IST" duration-ms="1759" status="PASS">
+    <test started-at="2025-11-27T13:50:17 IST" name="Default test" finished-at="2025-11-27T13:50:19 IST" duration-ms="2129">
+      <class name="com.api_RestAssure.SecondApiTest">
+        <test-method signature="demo_GEt_Request()[pri:0, instance:com.api_RestAssure.SecondApiTest@459e9125]" started-at="2025-11-27T13:50:17 IST" name="demo_GEt_Request" finished-at="2025-11-27T13:50:19 IST" duration-ms="2089" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteRequest -->
-        <test-method signature="testGetRequest()[pri:0, instance:com.api_RestAssure.APITest@7c7b252e]" started-at="2025-11-26T10:43:24 IST" name="testGetRequest" finished-at="2025-11-26T10:43:25 IST" duration-ms="600" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetRequest -->
-        <test-method signature="testPostRequest()[pri:0, instance:com.api_RestAssure.APITest@7c7b252e]" started-at="2025-11-26T10:43:25 IST" name="testPostRequest" finished-at="2025-11-26T10:43:25 IST" duration-ms="338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPostRequest -->
-        <test-method signature="testPutRequest()[pri:0, instance:com.api_RestAssure.APITest@7c7b252e]" started-at="2025-11-26T10:43:25 IST" name="testPutRequest" finished-at="2025-11-26T10:43:26 IST" duration-ms="299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPutRequest -->
-      </class> <!-- com.api_RestAssure.APITest -->
+        </test-method> <!-- demo_GEt_Request -->
+      </class> <!-- com.api_RestAssure.SecondApiTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

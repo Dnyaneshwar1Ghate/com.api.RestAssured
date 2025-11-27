@@ -1,6 +1,5 @@
 package com.api_RestAssure;
 
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,7 +9,7 @@ import static org.hamcrest.Matchers.*;
 
 public class APITest {
 
-    // Base URL of the API
+    // Base URL of the API	
     private static final String BASE_URL = "https://jsonplaceholder.typicode.com";
 
     // Test GET request
@@ -42,11 +41,11 @@ public class APITest {
     @Test
     public void testPostRequest() {
         // Prepare the request payload (body)
-        String jsonBody = "{\n" +
-                          "  \"title\": \"foo\",\n" +
-                          "  \"body\": \"bar\",\n" +
-                          "  \"userId\": 1\n" +
-                          "}";
+	        String jsonBody = "{\n" +
+	                          "  \"title\": \"foo\",\n" +
+	                          "  \"body\": \"bar\",\n" +
+	                          "  \"userId\": 1\n" +
+	                          "}";
 
         // Send a POST request to create a new post
         Response response = given()

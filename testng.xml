@@ -4,6 +4,10 @@
   <test name="Test1">
     <classes>
       <class name="com.api_RestAssure.APITest"/>
+      <class name="com.api_RestAssure.SimpleApi"/>
+       <class name="com.api_RestAssure.FirstApiTest"/>
+      <class name="com.api_RestAssure.SecondApiTest"/>
+      
      
     </classes>
   </test>
