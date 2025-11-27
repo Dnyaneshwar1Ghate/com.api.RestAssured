@@ -18,6 +18,8 @@ public class SimpleApi {
 				.then().statusCode(200)
 				.extract().response();
 				System.out.println("resopnse body "+response.getBody().asString());
+				
+				System.out.println("simple API test pass ");
 		
 	}
 
