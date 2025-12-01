@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.api_RestAssure.SimpleApi">
+      <class name="Pawan.GetDemoByPawan">
         <methods>
-          <include name="ApiTest"/>
+          <include name="getRequest"/>
         </methods>
-      </class> <!-- com.api_RestAssure.SimpleApi -->
+      </class> <!-- Pawan.GetDemoByPawan -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

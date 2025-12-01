@@ -6,7 +6,7 @@
 
         <classes>
 
-            <class name="com.api_RestAssure.APIDemowithAnotation" />
+         
              <class name="Pawan.GetDemoByPawan" />
             
             
