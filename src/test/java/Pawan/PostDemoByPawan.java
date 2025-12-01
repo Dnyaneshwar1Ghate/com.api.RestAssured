@@ -1,0 +1,51 @@
+package Pawan;
+
+import static io.restassured.RestAssured.given;
+
+import java.util.HashMap;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class PostDemoByPawan {
+
+	public static HashMap<Object, Object> map = new HashMap();
+
+	@BeforeClass
+	public void postData() {
+		map.put("firstName", "AS ");
+		map.put("lastName", "XT ");
+		map.put("age", "36");
+		map.put("position", "Eng");
+		map.put("department", "Testing");
+		map.put("salary", "30000");
+
+		RestAssured.baseURI = "http://localhost:3000";
+		RestAssured.basePath="/employees";
+		{
+			   
+			   
+		}
+	}
+	@Test
+	public void postRequest()
+	{
+		given()
+			
+			.contentType("application/json")
+			.body(map)
+		.when()
+		.post()
+		.then()
+		.statusCode(201)
+		.log().all();
+		
+		
+		
+			
+		
+	}
+
+}

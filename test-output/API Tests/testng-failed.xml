@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [API Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.api_RestAssure.APITest">
+        <methods>
+          <include name="testGetRequest"/>
+          <include name="testPostRequest"/>
+          <include name="testPutRequest"/>
+          <include name="testDeleteRequest"/>
+        </methods>
+      </class> <!-- com.api_RestAssure.APITest -->
+      <class name="com.api_RestAssure.SimpleApi">
+        <methods>
+          <include name="ApiTest"/>
+        </methods>
+      </class> <!-- com.api_RestAssure.SimpleApi -->
+      <class name="com.api_RestAssure.APIDemowithAnotation">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="validateGetRequest"/>
+        </methods>
+      </class> <!-- com.api_RestAssure.APIDemowithAnotation -->
+      <class name="com.api_RestAssure.ApiUsingDataProvider">
+        <methods>
+          <include name="testMultipleGetRequests" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- com.api_RestAssure.ApiUsingDataProvider -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [API Tests] -->

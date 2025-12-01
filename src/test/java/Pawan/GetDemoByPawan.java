@@ -13,12 +13,16 @@ public class GetDemoByPawan {
 	{
 		given()
 		.when()
-		.get("https://api.restful-api.dev/objects")
+		.get("http://localhost:3000")
 		.then()
 		.statusCode(200)
 		.statusLine("HTTP/1.1 200 OK")
-		.assertThat().body("name[0]", equalTo("Google Pixel 6 Pro"))
-		.header("Content-Type", "application/json");
+		.assertThat().body("firstName[1]", equalTo("John"))
+		.assertThat().body("position", equalTo("Software Engineer"))
+		.assertThat().body("salary", equalTo(75000))
+		.header("Content-Type", "application/json")
+		.log().all();
+		
 		
 		
 	}
