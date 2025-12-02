@@ -8,7 +8,7 @@
 
 
 
-			<class name="Pawan.GetDemoByPawan" />
+			<class name="Pawan.PostDemoByPawan" />
 
 
 		</classes>
