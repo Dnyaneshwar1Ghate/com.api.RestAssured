@@ -15,12 +15,13 @@ public class PostDemoByPawan {
 
 	@BeforeClass
 	public void postData() {
-		map.put("firstName", "dnay ");
-		map.put("lastName", "hatesfmsf ");
-		map.put("age", "37");
+		
+		map.put("firstName", "balaji ");
+		map.put("lastName", "bhishe ");
+		map.put("age", "16");
 		map.put("position", "Eng");
-		map.put("department", "Testing");
-		map.put("salary", "205400");
+		map.put("department", "Developer");
+		map.put("salary", "1000000");
 
 		RestAssured.baseURI = "http://localhost:3000";
 		RestAssured.basePath="/employees";
