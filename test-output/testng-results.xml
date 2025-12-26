@@ -1,31 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-26T18:37:03 IST" name="API Tests" finished-at="2025-12-26T18:37:05 IST" duration-ms="1935">
+  <suite started-at="2025-12-26T18:40:05 IST" name="API Tests" finished-at="2025-12-26T18:40:08 IST" duration-ms="3762">
     <groups>
     </groups>
-    <test started-at="2025-12-26T18:37:03 IST" name="Test1" finished-at="2025-12-26T18:37:05 IST" duration-ms="1935">
-      <class name="Pawan.PostDemoByPawan">
-        <test-method is-config="true" signature="postData()[pri:0, instance:Pawan.PostDemoByPawan@710636b0]" started-at="2025-12-26T18:37:03 IST" name="postData" finished-at="2025-12-26T18:37:03 IST" duration-ms="1" status="PASS">
+    <test started-at="2025-12-26T18:40:05 IST" name="Test1" finished-at="2025-12-26T18:40:08 IST" duration-ms="3762">
+      <class name="com.api_RestAssure.ApiUsingDataProvider">
+        <test-method signature="testMultipleGetRequests(int)[pri:0, instance:com.api_RestAssure.ApiUsingDataProvider@6d60fe40]" started-at="2025-12-26T18:40:05 IST" name="testMultipleGetRequests" data-provider="postIds" finished-at="2025-12-26T18:40:07 IST" duration-ms="2013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postData -->
-        <test-method signature="postRequest()[pri:0, instance:Pawan.PostDemoByPawan@710636b0]" started-at="2025-12-26T18:37:03 IST" name="postRequest" finished-at="2025-12-26T18:37:04 IST" duration-ms="1017" status="PASS">
+        </test-method> <!-- testMultipleGetRequests -->
+        <test-method signature="testMultipleGetRequests(int)[pri:0, instance:com.api_RestAssure.ApiUsingDataProvider@6d60fe40]" started-at="2025-12-26T18:40:07 IST" name="testMultipleGetRequests" data-provider="postIds" finished-at="2025-12-26T18:40:07 IST" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postRequest -->
-      </class> <!-- Pawan.PostDemoByPawan -->
-      <class name="com.api_RestAssure.PostRequestDemo">
-        <test-method is-config="true" signature="postData()[pri:0, instance:com.api_RestAssure.PostRequestDemo@7bd7d6d6]" started-at="2025-12-26T18:37:03 IST" name="postData" finished-at="2025-12-26T18:37:03 IST" duration-ms="339" status="PASS">
+        </test-method> <!-- testMultipleGetRequests -->
+        <test-method signature="testMultipleGetRequests(int)[pri:0, instance:com.api_RestAssure.ApiUsingDataProvider@6d60fe40]" started-at="2025-12-26T18:40:07 IST" name="testMultipleGetRequests" data-provider="postIds" finished-at="2025-12-26T18:40:07 IST" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postData -->
-        <test-method signature="postRequest()[pri:0, instance:com.api_RestAssure.PostRequestDemo@7bd7d6d6]" started-at="2025-12-26T18:37:05 IST" name="postRequest" finished-at="2025-12-26T18:37:05 IST" duration-ms="489" status="PASS">
+        </test-method> <!-- testMultipleGetRequests -->
+        <test-method signature="testMultipleGetRequests(int)[pri:0, instance:com.api_RestAssure.ApiUsingDataProvider@6d60fe40]" started-at="2025-12-26T18:40:07 IST" name="testMultipleGetRequests" data-provider="postIds" finished-at="2025-12-26T18:40:07 IST" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postRequest -->
-      </class> <!-- com.api_RestAssure.PostRequestDemo -->
+        </test-method> <!-- testMultipleGetRequests -->
+        <test-method signature="testMultipleGetRequests(int)[pri:0, instance:com.api_RestAssure.ApiUsingDataProvider@6d60fe40]" started-at="2025-12-26T18:40:07 IST" name="testMultipleGetRequests" data-provider="postIds" finished-at="2025-12-26T18:40:08 IST" duration-ms="676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleGetRequests -->
+        <test-method signature="testMultipleGetRequests(int)[pri:0, instance:com.api_RestAssure.ApiUsingDataProvider@6d60fe40]" started-at="2025-12-26T18:40:08 IST" name="testMultipleGetRequests" data-provider="postIds" finished-at="2025-12-26T18:40:08 IST" duration-ms="724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleGetRequests -->
+      </class> <!-- com.api_RestAssure.ApiUsingDataProvider -->
     </test> <!-- Test1 -->
   </suite> <!-- API Tests -->
 </testng-results>

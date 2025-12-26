@@ -7,10 +7,8 @@
 		<classes>
 
 
-			<class name="Pawan.PostDemoByPawan" />
 
-
-			<class name="com.api_RestAssure.PostRequestDemo" />
+			<class name="com.api_RestAssure.ApiUsingDataProvider" />
 
 
 		</classes>
