@@ -7,11 +7,10 @@
 		<classes>
 
 
+			<class name="Pawan.PostDemoByPawan" />
 
-			<class name="com.api_RestAssure.APITest" />
-			
-			
-		
+
+			<class name="com.api_RestAssure.PostRequestDemo" />
 
 
 		</classes>

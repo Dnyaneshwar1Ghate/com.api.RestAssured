@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-26T18:27:06 IST" name="API Tests" finished-at="2025-12-26T18:27:10 IST" duration-ms="4303">
+  <suite started-at="2025-12-26T18:37:03 IST" name="API Tests" finished-at="2025-12-26T18:37:05 IST" duration-ms="1935">
     <groups>
     </groups>
-    <test started-at="2025-12-26T18:27:06 IST" name="Test1" finished-at="2025-12-26T18:27:10 IST" duration-ms="4303">
-      <class name="com.api_RestAssure.APITest">
-        <test-method signature="testDeleteRequest()[pri:0, instance:com.api_RestAssure.APITest@7d9d0818]" started-at="2025-12-26T18:27:06 IST" name="testDeleteRequest" finished-at="2025-12-26T18:27:08 IST" duration-ms="1971" status="PASS">
+    <test started-at="2025-12-26T18:37:03 IST" name="Test1" finished-at="2025-12-26T18:37:05 IST" duration-ms="1935">
+      <class name="Pawan.PostDemoByPawan">
+        <test-method is-config="true" signature="postData()[pri:0, instance:Pawan.PostDemoByPawan@710636b0]" started-at="2025-12-26T18:37:03 IST" name="postData" finished-at="2025-12-26T18:37:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteRequest -->
-        <test-method signature="testGetRequest()[pri:0, instance:com.api_RestAssure.APITest@7d9d0818]" started-at="2025-12-26T18:27:08 IST" name="testGetRequest" finished-at="2025-12-26T18:27:09 IST" duration-ms="643" status="PASS">
+        </test-method> <!-- postData -->
+        <test-method signature="postRequest()[pri:0, instance:Pawan.PostDemoByPawan@710636b0]" started-at="2025-12-26T18:37:03 IST" name="postRequest" finished-at="2025-12-26T18:37:04 IST" duration-ms="1017" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetRequest -->
-        <test-method signature="testPostRequest()[pri:0, instance:com.api_RestAssure.APITest@7d9d0818]" started-at="2025-12-26T18:27:09 IST" name="testPostRequest" finished-at="2025-12-26T18:27:09 IST" duration-ms="734" status="PASS">
+        </test-method> <!-- postRequest -->
+      </class> <!-- Pawan.PostDemoByPawan -->
+      <class name="com.api_RestAssure.PostRequestDemo">
+        <test-method is-config="true" signature="postData()[pri:0, instance:com.api_RestAssure.PostRequestDemo@7bd7d6d6]" started-at="2025-12-26T18:37:03 IST" name="postData" finished-at="2025-12-26T18:37:03 IST" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostRequest -->
-        <test-method signature="testPutRequest()[pri:0, instance:com.api_RestAssure.APITest@7d9d0818]" started-at="2025-12-26T18:27:09 IST" name="testPutRequest" finished-at="2025-12-26T18:27:10 IST" duration-ms="850" status="PASS">
+        </test-method> <!-- postData -->
+        <test-method signature="postRequest()[pri:0, instance:com.api_RestAssure.PostRequestDemo@7bd7d6d6]" started-at="2025-12-26T18:37:05 IST" name="postRequest" finished-at="2025-12-26T18:37:05 IST" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPutRequest -->
-      </class> <!-- com.api_RestAssure.APITest -->
+        </test-method> <!-- postRequest -->
+      </class> <!-- com.api_RestAssure.PostRequestDemo -->
     </test> <!-- Test1 -->
   </suite> <!-- API Tests -->
 </testng-results>
